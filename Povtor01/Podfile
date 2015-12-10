@@ -1,0 +1,9 @@
+
+target 'Povtor01' do
+    pod 'POSAllocationTracker'
+end
+
+target 'Povtor01Tests' do
+    pod 'POSAllocationTracker'
+end
+
