@@ -13,7 +13,6 @@
 		8588AE9C1C12EBBE001D4E42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8588AE9A1C12EBBE001D4E42 /* Main.storyboard */; };
 		8588AE9E1C12EBBE001D4E42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8588AE9D1C12EBBE001D4E42 /* Assets.xcassets */; };
 		8588AEA11C12EBBE001D4E42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8588AE9F1C12EBBE001D4E42 /* LaunchScreen.storyboard */; };
-		8588AEB71C12EBBE001D4E42 /* Povtor01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8588AEB61C12EBBE001D4E42 /* Povtor01UITests.m */; };
 		8588AEC61C12EC08001D4E42 /* TypesBadExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = 8588AEC51C12EC08001D4E42 /* TypesBadExamples.m */; };
 		8588AECA1C12F0E6001D4E42 /* TypesFixedExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = 8588AEC91C12F0E6001D4E42 /* TypesFixedExamples.m */; };
 		8588AECC1C12FBA3001D4E42 /* PropertyAttributesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8588AECB1C12FBA3001D4E42 /* PropertyAttributesTests.m */; };
@@ -44,13 +43,6 @@
 			remoteGlobalIDString = 8588AE8D1C12EBBE001D4E42;
 			remoteInfo = Povtor01;
 		};
-		8588AEB31C12EBBE001D4E42 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8588AE861C12EBBE001D4E42 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8588AE8D1C12EBBE001D4E42;
-			remoteInfo = Povtor01;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -66,9 +58,6 @@
 		8588AEA21C12EBBE001D4E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8588AEA71C12EBBE001D4E42 /* Povtor01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Povtor01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8588AEAD1C12EBBE001D4E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8588AEB21C12EBBE001D4E42 /* Povtor01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Povtor01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8588AEB61C12EBBE001D4E42 /* Povtor01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Povtor01UITests.m; sourceTree = "<group>"; };
-		8588AEB81C12EBBE001D4E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8588AEC51C12EC08001D4E42 /* TypesBadExamples.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypesBadExamples.m; sourceTree = "<group>"; };
 		8588AEC91C12F0E6001D4E42 /* TypesFixedExamples.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypesFixedExamples.m; sourceTree = "<group>"; };
 		8588AECB1C12FBA3001D4E42 /* PropertyAttributesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyAttributesTests.m; sourceTree = "<group>"; };
@@ -125,13 +114,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8588AEAF1C12EBBE001D4E42 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -140,7 +122,6 @@
 			children = (
 				8588AE901C12EBBE001D4E42 /* Povtor01 */,
 				8588AEAA1C12EBBE001D4E42 /* Povtor01Tests */,
-				8588AEB51C12EBBE001D4E42 /* Povtor01UITests */,
 				8588AEE91C136665001D4E42 /* Vendor */,
 				8588AE8F1C12EBBE001D4E42 /* Products */,
 			);
@@ -151,7 +132,6 @@
 			children = (
 				8588AE8E1C12EBBE001D4E42 /* Povtor01.app */,
 				8588AEA71C12EBBE001D4E42 /* Povtor01Tests.xctest */,
-				8588AEB21C12EBBE001D4E42 /* Povtor01UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,15 +173,6 @@
 				8588AF0E1C136AA2001D4E42 /* PassByReferenceTests.m */,
 			);
 			path = Povtor01Tests;
-			sourceTree = "<group>";
-		};
-		8588AEB51C12EBBE001D4E42 /* Povtor01UITests */ = {
-			isa = PBXGroup;
-			children = (
-				8588AEB61C12EBBE001D4E42 /* Povtor01UITests.m */,
-				8588AEB81C12EBBE001D4E42 /* Info.plist */,
-			);
-			path = Povtor01UITests;
 			sourceTree = "<group>";
 		};
 		8588AEC71C12EC94001D4E42 /* Examples */ = {
@@ -306,24 +277,6 @@
 			productReference = 8588AEA71C12EBBE001D4E42 /* Povtor01Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8588AEB11C12EBBE001D4E42 /* Povtor01UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8588AEC11C12EBBE001D4E42 /* Build configuration list for PBXNativeTarget "Povtor01UITests" */;
-			buildPhases = (
-				8588AEAE1C12EBBE001D4E42 /* Sources */,
-				8588AEAF1C12EBBE001D4E42 /* Frameworks */,
-				8588AEB01C12EBBE001D4E42 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8588AEB41C12EBBE001D4E42 /* PBXTargetDependency */,
-			);
-			name = Povtor01UITests;
-			productName = Povtor01UITests;
-			productReference = 8588AEB21C12EBBE001D4E42 /* Povtor01UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -337,10 +290,6 @@
 						CreatedOnToolsVersion = 7.1.1;
 					};
 					8588AEA61C12EBBE001D4E42 = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 8588AE8D1C12EBBE001D4E42;
-					};
-					8588AEB11C12EBBE001D4E42 = {
 						CreatedOnToolsVersion = 7.1.1;
 						TestTargetID = 8588AE8D1C12EBBE001D4E42;
 					};
@@ -361,7 +310,6 @@
 			targets = (
 				8588AE8D1C12EBBE001D4E42 /* Povtor01 */,
 				8588AEA61C12EBBE001D4E42 /* Povtor01Tests */,
-				8588AEB11C12EBBE001D4E42 /* Povtor01UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -378,13 +326,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8588AEA51C12EBBE001D4E42 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8588AEB01C12EBBE001D4E42 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,14 +372,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8588AEAE1C12EBBE001D4E42 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8588AEB71C12EBBE001D4E42 /* Povtor01UITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -446,11 +379,6 @@
 			isa = PBXTargetDependency;
 			target = 8588AE8D1C12EBBE001D4E42 /* Povtor01 */;
 			targetProxy = 8588AEA81C12EBBE001D4E42 /* PBXContainerItemProxy */;
-		};
-		8588AEB41C12EBBE001D4E42 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8588AE8D1C12EBBE001D4E42 /* Povtor01 */;
-			targetProxy = 8588AEB31C12EBBE001D4E42 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -602,30 +530,6 @@
 			};
 			name = Release;
 		};
-		8588AEC21C12EBBE001D4E42 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = Povtor01UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.pp.kolia.Povtor01UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Povtor01;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		8588AEC31C12EBBE001D4E42 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = Povtor01UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.pp.kolia.Povtor01UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Povtor01;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -652,15 +556,6 @@
 			buildConfigurations = (
 				8588AEBF1C12EBBE001D4E42 /* Debug */,
 				8588AEC01C12EBBE001D4E42 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8588AEC11C12EBBE001D4E42 /* Build configuration list for PBXNativeTarget "Povtor01UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8588AEC21C12EBBE001D4E42 /* Debug */,
-				8588AEC31C12EBBE001D4E42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
